@@ -1,0 +1,39 @@
+{
+  "name": "expressjsapi",
+  "version": "1.0.0",
+  "description": "social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js ",
+    "scss": "node-sass scss/style.scss public/dest/style.css --watch"
+  },
+  "author": "francis kiryowa",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0",
+    "express-validator": "^5.3.1",
+    "gravatar": "^1.8.0",
+    "jquery": "^3.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-sass": "^4.11.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.9.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0",
+    "pug": "^2.0.3",
+    "sequelize": "^5.3.5",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

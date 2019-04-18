@@ -1,0 +1,24 @@
+
+@import 'reset';
+// Generic styles
+$font-stack:    Helvetica, Verdana, sans-serif;
+$primary-color: #333;
+body {
+    font-family:$font-stack ;
+}
+h1 {
+    font-size: 2em;
+    color: $primary-color;
+}
+table, th, td {
+    border-bottom: 2px solid #ddd;
+    padding: 20px;
+}
+
+th {
+    text-align: center;
+}
+
+
+@import 'list';
+@import 'bookform';
